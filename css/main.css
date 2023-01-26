@@ -1,0 +1,29 @@
+/* CSS Variables */
+:root {
+
+	/* Sets variables for the fonts & font color that I'll be using throughout the website */
+	--heading-font: 'Roboto Condensed', sans-serif;
+	--heading2-font: 'Vollkorn', serif;
+	--body-font: 'Maven Pro', sans-serif;
+
+	--main-font-color: red; 
+
+
+}
+
+* {
+	box-sizing: border-box;
+	color: var(--main-font-color)
+}
+
+h1 {
+	font-family: var(--heading-font);
+}
+
+h2, h3, h4 {
+	font-family: var(--heading2-font);
+}
+
+p, a {
+	font-family: var(--body-font);
+}

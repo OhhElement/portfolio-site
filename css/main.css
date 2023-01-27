@@ -1,7 +1,9 @@
 /* CSS Variables */
 :root {
 
-	/* Sets variables for the fonts & font color that I'll be using throughout the website */
+	/* Typography */
+
+	/* Sets variables for fonts & font color throughout the website */
 	--heading-font: 'Roboto Condensed', sans-serif;
 	--heading2-font: 'Vollkorn', serif;
 	--body-font: 'Maven Pro', sans-serif;
@@ -26,4 +28,29 @@ h2, h3, h4 {
 
 p, a {
 	font-family: var(--body-font);
+}
+
+nav {
+	border: 2px red solid;
+}
+
+.container {
+	border: 2px purple solid;
+}
+
+article {
+	border: 2px green solid;
+}
+
+.portfolio {
+	border: 2px blue solid;
+}
+
+article, .portfolio, .contact {
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.twitter-btn, .gmail-btn {
+	width: 100%;
 }
